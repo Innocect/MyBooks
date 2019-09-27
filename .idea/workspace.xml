@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15f6ee24-255c-4543-abb9-933e97a84684" name="Default Changelist" comment="" />
+    <list default="true" id="15f6ee24-255c-4543-abb9-933e97a84684" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/books/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/product/templates/Product/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/templates/Product/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/product/templates/Product/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/templates/Product/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/base.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QyBgsTPIel9qCqSs2pIWMSyRcM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -72,6 +83,19 @@
       <updated>1568733069648</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

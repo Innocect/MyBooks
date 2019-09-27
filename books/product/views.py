@@ -2,15 +2,20 @@
 
 from django.shortcuts import render
 from .models import Product, ProductImages
+from django.core.paginator import Paginator
 
 
 # Create your views here.
 def productlist(request):
     product_list = Product.objects.all()
     # print(product_list)
-    context = {'product_list': product_list}
-
     template = 'Product/product_list.html'
+
+    paginator = Paginator(product_list, 1)  # show only 10 products on 1 page
+    page = request.GET.get('page')
+    product_list = paginator.get_page(page)
+
+    context = {'product_list': product_list}
 
     return render(request, template, context)
 
