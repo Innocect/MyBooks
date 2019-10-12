@@ -2,43 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f6ee24-255c-4543-abb9-933e97a84684" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books/Books_Mini/books/sent_emails/20191013-001440-85587088.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/accounts/templates/base2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/main_product/Tech_Knowledge.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/main_product/Tech_Knowledge_aIqOsXl.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/main_product/Tech_Neo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/main_product/Tech_Neo_6CL0CSu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/products/Tech_Knowledge.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/products/Tech_Knowledge_4vthReO.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/products/Tech_Knowledge_HA5b78q.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/products/Tech_Knowledge_lPZYVMo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/media/products/Tech_Neo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0012_auto_20191004_2218.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0013_product_rollnumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0014_auto_20191005_1253.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0015_product_reviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0016_auto_20191005_1307.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0017_remove_product_rollnumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0018_product_paid_price.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/product/migrations/0019_product_rollnumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/sent_emails/20191013-002249-81977456.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/sent_emails/20191013-002358-75620592.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/sent_emails/20191013-002437-77588560.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/accounts/templates/registration/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/Books_Mini/books/sent_emails/20191013-001440-85587088.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_complete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_confirm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_email.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/books/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/product/templates/Product/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/templates/Product/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -64,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
