@@ -13,7 +13,10 @@ condition_types = (
 
 class Product(models.Model):
     # have all items in here
+    paid_price = models.DecimalField(max_digits=7, decimal_places=3)
     name = models.CharField(max_length=100)
+    rollnumber = models.IntegerField(default=0)
+    reviews = models.CharField(max_length=200, default='null')
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.TextField(max_length=500)
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True)
@@ -23,9 +26,9 @@ class Product(models.Model):
     image = models.ImageField(upload_to='main_product/', blank=True, null=True)
     created = models.DateTimeField(default=timezone.now)
 
-    slug = models.SlugField(blank=True, null=True)  # For Urls
+    slug = models.SlugField(blank=True, null=True, unique=True)  # For Urls
 
-    def save(self, *args, **kwargs):
+    def save(self, *args, **kwargs):  # over_ridden
         if not self.slug and self.name:
             self.slug = slugify(self.name)
         super(Product, self).save(*args, **kwargs)

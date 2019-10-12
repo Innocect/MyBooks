@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: himanshubakshi99@gmail.com
+Date: Sat, 12 Oct 2019 18:53:58 -0000
+Message-ID: <157090643831.5064.12376309300499390816@DESKTOP-8IC4SDI>
+
+Someone asked for password reset for email himanshubakshi99@gmail.com. Follow the link below:
+http://127.0.0.1:8000/accounts/reset/MQ/5aj-fe44a5c28adb3219afc8/
+-------------------------------------------------------------------------------

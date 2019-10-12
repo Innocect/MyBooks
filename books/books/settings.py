@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from django.core import mail
 
 # Build paths inside the product like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'accounts',  # adding account at first because we don't want the django admin page
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -36,7 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'product',
-    'accounts',
+    'bootstrap4'
+
 )
 
 MIDDLEWARE = [
@@ -124,3 +127,14 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 LOGIN_REDIRECT_URL = '/'
+'''
+The file backend writes emails to a file.
+A new file is created for each new session that is opened on this backend. 
+The directory to which the files are written is either taken from the EMAIL_FILE_PATH setting or 
+from the file_path keyword when creating a connection with get_connection().
+'''
+EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")  # change this to a proper location
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+
+# EMAIL_FILE_PATH = 'Books_Mini/books/sent_emails'  # change this to a proper location
+
