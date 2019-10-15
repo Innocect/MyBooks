@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f6ee24-255c-4543-abb9-933e97a84684" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/accounts/templates/registration/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/Books_Mini/books/sent_emails/20191013-001440-85587088.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_change_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/templates/registration/password_reset_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybooks/accounts/templates/registration/password_resert_subject.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
