@@ -13,16 +13,16 @@ condition_types = (
 
 class Product(models.Model):
     # have all items in here
-    paid_price = models.DecimalField(max_digits=7, decimal_places=3)
+    # paid_price = models.DecimalField(max_digits=7, decimal_places=3)
     name = models.CharField(max_length=100)
-    rollnumber = models.IntegerField(default=0)
+    # rollnumber = models.IntegerField(default=0)
     reviews = models.CharField(max_length=200, default='null')
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.TextField(max_length=500)
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True)
     brand = models.ForeignKey('Brand', on_delete=models.SET_NULL, null=True)
     condition = models.CharField(max_length=100, choices=condition_types)
-    price = models.DecimalField(max_digits=5, decimal_places=2)
+    price = models.DecimalField(max_digits=7, decimal_places=2)
     image = models.ImageField(upload_to='main_product/', blank=True, null=True)
     created = models.DateTimeField(default=timezone.now)
 
