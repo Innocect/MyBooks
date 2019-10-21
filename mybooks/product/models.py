@@ -16,7 +16,7 @@ class Product(models.Model):
     # paid_price = models.DecimalField(max_digits=7, decimal_places=3)
     name = models.CharField(max_length=100)
     # rollnumber = models.IntegerField(default=0)
-    reviews = models.CharField(max_length=200, default='null')
+    # reviews = models.CharField(max_length=200, default='null')
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.TextField(max_length=500)
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True)

@@ -58,6 +58,6 @@ def productdetail(request, product_slug):
     product_detail = get_object_or_404(Product, slug=product_slug)
     productimages = ProductImages.objects.filter(product=product_detail)
     template = 'Product/product_detail.html'
-    context = {'product_detail1': product_detail, 'product_images': productimages}
+    context = {'product_detail': product_detail, 'product_images': productimages}
 
     return render(request, template, context)
